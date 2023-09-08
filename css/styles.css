@@ -13,6 +13,10 @@ body{
     justify-content: space-between;
 }
 
+.header-nav{
+    width: 45%;
+}
+
 .header-logo p{
     color: #CACACA;
     font-family: Teko;
@@ -73,10 +77,13 @@ body{
 }
 
 .landing-page{
+    max-width: 1400px;
     color: white;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between ;
+    margin: auto;
+    margin-top: 200px;
 }
 
 .test-img{
@@ -86,15 +93,15 @@ body{
 }
 
 .mail-us{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
     position: relative;
     width: 188px;
     height: 172px;
     top: 73%;
     background-color: var(--color-green);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
     color: #000000;
 }
 
@@ -107,7 +114,18 @@ body{
     font-weight: 600;
     line-height: normal;
     text-transform: uppercase;
+    margin-top: 15px;
 }
+
+.image-off{
+    background-color: #242020;
+    position: relative;
+    left: 80%;
+    top: 45%;
+    width: 272px;
+    height: 229px;
+}
+
 
 
 
